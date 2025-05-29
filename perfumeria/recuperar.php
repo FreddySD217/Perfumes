@@ -47,7 +47,7 @@
                         // Redirige solo si fue exitoso
                         window.location.href = "login.php";
                     } else {
-                        alert("Error del servidor: " + data.mensaje);
+                        alert("Error del servidor: " + data.mensaje); 
                     }
                 })
                 .catch(error => {
