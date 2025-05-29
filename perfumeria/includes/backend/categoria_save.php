@@ -1,6 +1,5 @@
 <?php
-require_once '../conexiones.php'; // ajusta si está en otra ubicación
-
+require_once '../conexiones.php';
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['dato'])) {
